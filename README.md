@@ -1,5 +1,4 @@
 # DartNode
-Backend v2 for Agrivator's Dart App.
 
 
 The API for the DART app.
@@ -22,5 +21,8 @@ npm install
 node bin\www.js
 ```
 
-Use npm install --save when installing any new dependencies.
-Pull from upstream before working on any new feature.
+
+***
+
+* Use npm install **--save** when installing any _new_ dependencies.
+* Pull from upstream before working on any new feature.
