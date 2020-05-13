@@ -5,6 +5,10 @@ The API for the DART app.
 
 ## Installation
 
+Prerequisites.
+* Node. https://nodejs.org/en/download/
+* Mongodb. https://docs.mongodb.com/manual/installation/
+
 Fork and clone the repo.
 
 Use the package manager npm to install dependencies
