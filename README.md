@@ -7,7 +7,8 @@ The API for the DART app.
 
 Prerequisites.
 * Node. https://nodejs.org/en/download/
-* Mongodb. https://docs.mongodb.com/manual/installation/
+* Mongodb. https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
+    (Add to environment variables if the installer doesn't do this automatically.)
 
 Fork and clone the repo.
 
