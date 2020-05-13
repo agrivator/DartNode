@@ -1,7 +1,7 @@
-import express from "express";
-import bodyParser from "body-parser";
+const express = require("express");
+const bodyParser = require("body-parser");
 
-import customer from "./components/customer";
+const customer = require("./components/customer");
 
 const app = express();
 
@@ -21,4 +21,4 @@ app.get("/", function(req, res){
 });
 
 
-export default app;
+module.exports = app;

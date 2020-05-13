@@ -1,9 +1,8 @@
-import { Router } from "express";
+const express = require("express");
+const router = express.Router();
 
-import customerController from "./customerController";
-
-const router = Router();
+const customerController = require("./customerController");
 
 router.get("/auth", customerController.hello);
 
-export default router;
+module.exports = router;
