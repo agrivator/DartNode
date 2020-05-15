@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 import mongoose from 'mongoose';
 
-const db = process.env.MONGODB_URL || 'mongodb://localhost:27017/dart';
+const db = process.env.MONGODB_URI;
 
 mongoose
   .connect(db, { useNewUrlParser: true, useUnifiedTopology: true })

@@ -18,6 +18,9 @@ Use the package manager npm to install dependencies
 npm install
 ```
 
+2. create a file called .env in root
+3. Add keys PORT, MONGODB_URI
+
 (installs all the dependies specified in package.json)
 
 ## Run the project.
