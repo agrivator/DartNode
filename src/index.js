@@ -1,7 +1,7 @@
-const express = require("express");
-const bodyParser = require("body-parser");
+import express from "express";
+import bodyParser from "body-parser";
 
-const customer = require("./components/customer");
+import customer from "./components/customer";
 
 const app = express();
 
@@ -15,10 +15,9 @@ app.use(bodyParser.json());
 // express routes ivde.
 app.use("/customers", customer);
 
-
 app.get("/", function(req, res){
     res.send("Hey!");
 });
 
 
-module.exports = app;
+export default app;
